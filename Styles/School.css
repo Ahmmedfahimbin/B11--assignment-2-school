@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+ .quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+ .raleway{
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  /* Shared style */
+
+  .card{
+
+  }
+
+  .card-title{
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .section-title{
+    font-weight: 700;
+    font-size: 46px;
+    text-align: center;
+    
+  }
+
+  /* buttons style */
+
+  .btn-orange{
+    background-color: orange;
+    padding: 10px 60px;
+    border-radius: 12px;
+    color: white;
+    margin-left: 186px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+ 
+  .btn-black{
+    background-color: black;
+    padding: 1.25rem;
+    border-radius: 12px;
+    color: white;
+  }
+
+  .btn-circle{
+    background-color: orange;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 800;
+    width: 60px;
+    height: 60px;
+  }
+
+  /* front color ans size*/
+  .fn-clr-orange{
+    color: orange;
+  }
+  .fn-clr-skyblue{
+    color: skyblue;
+  }
+  .fn-clr-lavender{
+    color: #05D4DF;
+  }
+  .fn-clr-4{
+    color: #5D58EF;
+  }
+
+  /* navbar style */
+
+  .flex{
+    display: flex;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav{
+    padding-right: 32px;
+  }
+
+  .school{
+    font-size: 32px;
+    font-weight: 700;
+    padding-left: 11px;
+  }
