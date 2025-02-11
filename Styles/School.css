@@ -147,7 +147,6 @@
     /* padding: 50px; */
     margin: 10px auto;
     background-image: url(../assets/bg.png);
-    border: 2px solid black;
   }
   .card-common{
     text-align: center;
@@ -162,9 +161,8 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     justify-content: center;
-    align-content: center;
     width: 1160px;
-    border: 2px solid black;
+    margin-left: 400px;
     
   }
 
@@ -216,7 +214,6 @@
     url(../assets/bg.png);
     /* width: 1440px;
     height: 1020px; */
-    border: 2px solid black;
     
   }
 
@@ -232,7 +229,7 @@
   .pic-card-small{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    width: 290px;
+    /* width: 290px; */
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
     background-color: white;
@@ -311,7 +308,7 @@
   }
 
   .view{
-    margin: 80px 660px;
+    margin: 80px 0px 0px 950px;
   }
 
 
@@ -320,7 +317,39 @@
   .footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    /* justify-content: space-around; */
     background-color: #01ACFD;
+    color: white;
+    padding: 120px;
+    gap: 178px;
+    
+  }
+  .footer-logo{
+    width: 250px;
+    height: 100px; 
+  }
+
+  .kid-school{
+    font-weight: 700;
+    font-size: 42px;
+    margin-top: 0px;
+  }
+  .footer-description{
+    font-size: 20px;
+    font-weight: 400;
+    
+  }
+  .about{
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .hafa{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .keep{
+    font-size: 26px;
+    font-weight: 700;
   }
 
   /* responsive */
@@ -333,23 +362,32 @@
     .school {
         display: none;
     }
-    body{
-        align-items: center;
+    
+
+    .navbar{
+      border-bottom: 1px solid orange;
+      <i class="fa-solid fa-bars"></i>
     }
 
+
     .banner{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-auto-flow: column-reverse;
+        flex-direction: column-reverse;
         text-align: center;
         align-items: center;
         width: 100%; 
         padding-left: 15px;
+        gap: 20px;
+    }
+
+    .banner img{
+      max-width: 576px;
     }
 
     .cards{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        margin-left: 50px;
         gap: 20px;
         width: 100%;
     }
@@ -357,22 +395,31 @@
     .school-info{
         width: 100%;
     }
-    .small-cards{
+    .small-cards {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        height: 400px;
-        width: 100%;    
+        grid-template-rows: repeat(2, 1fr);
+        max-width: 100%;
+        align-items: center;
     }
 
-    .story-img{
-        width: 100%;
-
+    .view{
+      margin: 80px 170px 0px;
     }
 
     .footer{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
+        padding-left: 30px;
+        color: white;
+        margin-top: 0px;
+        gap: 30px;
     }
+
+    .footer-description{
+      font-size: 20px;
+    }
+
+    
+    
 
 }
