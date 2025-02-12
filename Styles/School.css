@@ -416,7 +416,19 @@
     }
 
     .footer-description{
+      font-size: 18px;
+    }
+    .about{
+      font-size: 25px;
+      font-weight: 600;
+    }
+    .hafa{
       font-size: 20px;
+      font-weight: 500;
+    }
+    .keep{
+      font-size: 26px;
+      font-weight: 700;
     }
 
     
