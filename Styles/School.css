@@ -98,6 +98,10 @@
     display: flex;
   }
 
+  .icon{
+    display: none;
+  }
+
   .nav-link{
     text-decoration: none;
   }
@@ -122,6 +126,7 @@
   /* banner related style */
 
   .banner{
+    justify-content: space-evenly;
     width: 1440px;
     align-items: center;
     margin: 0px auto;
@@ -317,10 +322,10 @@
   .footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* justify-content: space-around; */
+
     background-color: #01ACFD;
     color: white;
-    padding: 120px;
+    padding: 120px 120px 120px 350px;
     gap: 178px;
     
   }
@@ -366,7 +371,6 @@
 
     .navbar{
       border-bottom: 1px solid orange;
-      <i class="fa-solid fa-bars"></i>
     }
 
 
@@ -430,8 +434,4 @@
       font-size: 26px;
       font-weight: 700;
     }
-
-    
-    
-
 }
